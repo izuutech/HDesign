@@ -1,0 +1,291 @@
+
+.header-bg{
+    box-sizing: border-box;
+    background-color: #880e4f;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    background-color: #880e4f;
+    height: 10vh;
+    box-sizing: border-box;
+}
+.intro{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0%;
+    box-sizing: border-box;
+}
+.intro-left{
+    box-sizing: border-box;
+    width: 45%;
+    padding: 50px 0px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.intro-left-head{
+    color: #fff;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.intro-left-topic{
+    color: #fff;
+    margin-block-start: 0em;
+}
+.join-hackathon{
+    width: 38%;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #AD1457;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to left, #AD1457 50%, white 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.join-hackathon:hover{
+    background-position: left;
+}
+
+.intro-right{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.intro-right-img{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+
+
+.form-box{
+    width: 100%;
+    display: flex;
+}
+.form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 1%;
+    width: 60%;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    box-sizing: border-box;
+    padding: 50px 0px;
+    
+    justify-content: center;
+}
+.form-head{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.33em;
+    font-weight: 700;
+}
+.form-inp{
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-color: #d4d2d2;
+    border-radius: 5px;
+    border-style: none;
+    border: solid 1px #d4d2d2;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    height: 40px;
+    padding: 1px 20px;
+    transition: 0.5s;
+    outline:none;
+}
+.form-inp:focus{
+    border: solid 1px #880e4f;
+}
+.form-select{
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border: solid 1px #d4d2d2;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s;
+}
+.form-select:focus{
+    border: solid 1px #880e4f;
+}
+#other{
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-color: #d4d2d2;
+    border-radius: 5px;
+    border-style: none;
+    border: solid 1px #d4d2d2;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    height: 40px;
+    padding: 1px 20px;
+    transition: 0.5s;
+    outline:none;
+    display:none;
+}
+#other:focus{
+    border: solid 1px #880e4f;
+}
+.form-textarea{
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    height: 120px;
+    resize: none;
+    width: 90%;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: solid 1px #d4d2d2;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s;
+}
+.form-textarea:focus{
+    border: solid 1px #880e4f;
+}
+.terms-box{
+    box-sizing: border-box;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+    margin-left: 5%;
+    width: 45%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.terms-r{
+    margin-left: 5%;
+    width: 45%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.terms-text{
+    margin-left: 5px;
+}
+.form-submit{
+    height: 40px;
+    background: #AD1457;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(to left, #AD1457 50%, white 50%) right;
+    background-size: 200%;
+    transition: 1s ease-out;
+}
+.form-submit:hover{
+    background-position: left;
+    color: #AD1457;
+    border: 1px solid #AD1457;
+}
+.form-right{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    width: 35%;
+    text-align: right;
+    height: initial
+}
+.hacker{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.moveerror{
+    margin-left: 5%;
+    margin-top: 10px;
+    color: #dc3545;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1087px ) {
+    .terms-box{
+        flex-direction: column-reverse;
+    }
+    .terms{
+        width: 95%
+    }
+    .terms-r{
+        width: 95%
+    }
+}
+@media screen and (max-width: 900px ) {
+    .intro-right-img{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 800px ) {
+    .header-bg{
+        height: fit-content;
+    }
+    .intro{
+        flex-direction: column-reverse;
+    }
+    .intro-left{
+        width: 90%;
+    }
+    .intro-right{
+        width: 40%;
+        margin-left:30%;
+    }
+}
+@media screen and (max-width: 700px ) {
+    .join-hackathon{
+        width: 70%;
+    }
+    .form-box{
+        flex-direction: column-reverse;
+    }
+    .form{
+        margin-left: 2.5%;
+        width: 95%;
+    }
+    .form-right{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 550px ) {
+    .intro-right{
+        width: 60%;
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 400px ) {
+    .intro-right{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
